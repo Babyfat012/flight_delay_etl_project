@@ -1,0 +1,4 @@
+# .gitignore
+data/raw/
+data/processed/
+reports/flight_dashboard.pbix

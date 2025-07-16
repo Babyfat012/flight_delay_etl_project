@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="u16JPaSYpKaaYW4wEJ56">
+    <mxGraphModel dx="868" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PNiviQrP-usejdmTbvdM-1" value="Python: Processing&lt;div&gt;Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNiviQrP-usejdmTbvdM-1" target="PNiviQrP-usejdmTbvdM-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="110" as="sourcePoint" />
+            <mxPoint x="250" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-3" value="Python" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PNiviQrP-usejdmTbvdM-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.152" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-4" value="MySQL: Stagging&lt;div&gt;Database&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNiviQrP-usejdmTbvdM-4" target="PNiviQrP-usejdmTbvdM-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="sourcePoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-6" value="Pandas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PNiviQrP-usejdmTbvdM-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.1867" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-7" value="Transformation&lt;div&gt;Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNiviQrP-usejdmTbvdM-7" target="PNiviQrP-usejdmTbvdM-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-9" value="Python" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PNiviQrP-usejdmTbvdM-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.384" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-10" value="DuckDB: Load to&lt;div&gt;Data Warehouse&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="PNiviQrP-usejdmTbvdM-10" target="PNiviQrP-usejdmTbvdM-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNiviQrP-usejdmTbvdM-12" value="Power BI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
