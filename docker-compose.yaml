@@ -1,0 +1,18 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./data/processed:/tmp/dataset
+      - ./db:/tmp/load_dataset
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_DATABASE=olist
+      - MYSQL_ROOT_USER=root
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=admin
+volumes:
+  mysql_data: {}
